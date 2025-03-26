@@ -3,7 +3,7 @@ apiVersion: networking.istio.io/v1beta1
 kind: DestinationRule
 metadata:
   name: whoami
-  namespace: test
+  namespace: default
 spec:
   host: whoami
   trafficPolicy:
